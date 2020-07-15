@@ -12,7 +12,7 @@
   	5.DocumentFragment: 文档碎片(高效批量更新多个节点)
   	6.obj.hasOwnProperty(prop): 判断prop是否是obj自身的属性
 
-## 2. 数据代理(MVVM.js)
+## 2. 数据代理(MVVM.js) vm.data.xxx ----> vm.xxx  
 	1.通过一个对象代理对另一个对象中属性的操作(读/写)
 	2.通过vm对象来代理data对象中所有属性的操作
 	3.好处: 更方便的操作data中的数据
